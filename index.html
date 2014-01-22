@@ -1,50 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
-<title>LinusYu's blog</title>
-</head>
+---
+layout: default
+title: Linusyu's blog
+---
 
-<body>
-	<div id="container">
-		<aside id="aside">
-			<div class="infor">
-				<img id="gra" src="http://himg.baidu.com/sys/portraitl/item/ea1bd703?t=1388018629"/>
-				<p>Linus Yu</p>
-			</div>
-		</aside>
-		<div id="content">
-			<nav>
-				<ul>
-					<li><a>首页</a></li>
-					<li><a>图画</a></li>
-					<li><a>关于作者</a></li>
-				</ul>
-			</nav>
-			<section>
-				<ul>
-					<li><h2><a href="posts/helloworld.html">Hello world</a></h2>
-						<p>早在 2013 年上半年，作为科技霉体从业者的一员，评论尸就得知了一个传闻：TechCrunch 即将建立中文分站，这意味着原本国内科技博客的「水货代购」模式将被打破，因为行货即将直接上架。 果不其然，时年 8 月份，TechCrunch 中国如期上线...</p>
-					</li>
-					<li><h2><a>2014春节</a></h2>
-						<p>早在 2013 年上半年，作为科技霉体从业者的一员，评论尸就得知了一个传闻：TechCrunch 即将建立中文分站，这意味着原本国内科技博客的「水货代购」模式将被打破，因为行货即将直接上架。 果不其然，时年 8 月份，TechCrunch 中国如期上线...</p>
-					</li>
-					<li><h2><a>2014春节</a></h2>
-						<p>早在 2013 年上半年，作为科技霉体从业者的一员，评论尸就得知了一个传闻：TechCrunch 即将建立中文分站，这意味着原本国内科技博客的「水货代购」模式将被打破，因为行货即将直接上架。 果不其然，时年 8 月份，TechCrunch 中国如期上线...</p>
-					</li>
-					<li><h2><a>2014春节</a></h2>
-						<p>早在 2013 年上半年，作为科技霉体从业者的一员，评论尸就得知了一个传闻：TechCrunch 即将建立中文分站，这意味着原本国内科技博客的「水货代购」模式将被打破，因为行货即将直接上架。 果不其然，时年 8 月份，TechCrunch 中国如期上线...</p>
-					</li>
-					<li><h2><a>2014春节</a></h2>
-						<p>早在 2013 年上半年，作为科技霉体从业者的一员，评论尸就得知了一个传闻：TechCrunch 即将建立中文分站，这意味着原本国内科技博客的「水货代购」模式将被打破，因为行货即将直接上架。 果不其然，时年 8 月份，TechCrunch 中国如期上线...</p>
-					</li>
-					<li><h2><a>2014春节</a></h2>
-						<p>早在 2013 年上半年，作为科技霉体从业者的一员，评论尸就得知了一个传闻：TechCrunch 即将建立中文分站，这意味着原本国内科技博客的「水货代购」模式将被打破，因为行货即将直接上架。 果不其然，时年 8 月份，TechCrunch 中国如期上线...</p>
-					</li>
-				</ul>
-			</section>
-		</div>
-	</div>
-</body>
-</html>
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+<body>
+	<div id="container">
+		<aside id="aside">
+			<div class="infor">
+				<img id="gra" src="http://himg.baidu.com/sys/portraitl/item/ea1bd703?t=1388018629"/>
+				<p>{{ site.name }}</p>
+			</div>
+		</aside>
+		<div id="content">
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a>Draw</a></li>
+					<li><a>About</a></li>
+				</ul>
+			</nav>
+			<section>
+				{{ content }}
+			</section>
+		</div>
+	</div>
+</body>	
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/"></a></h1>
+            <a class="extra" href="/">home</a>
+          </div>
+          {{ content }}
+        </div>
+    </body>
+</html>
