@@ -66,6 +66,7 @@ li {
     width: 70%;
 }
 .posts li {
+    border-bottom: 1px dashed #E2E2E2;
     line-height: 30px;
 }
 .post {
