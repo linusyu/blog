@@ -68,6 +68,13 @@ li {
 .posts li {
     line-height: 30px;
 }
+.post {
+    line-height: 25px;
+}
+.meta {
+    color: #999999;
+    padding: 15px 0;
+}
 #content nav {
     border-bottom: 1px solid #555555;
     line-height: 30px;
