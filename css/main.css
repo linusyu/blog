@@ -6,9 +6,10 @@
 
 /* Global Reset */
 html {
+    height:100%;
     color: #555555;
     font-size: 14px;
-	font-family: STHeiti,"Microsoft Yahei",Helmet,Freesans,sans-serif;
+    font-family: STHeiti,"Microsoft Yahei",Helmet,Freesans,sans-serif;
 }
 html, body,ul,li,p{
     margin: 0;
