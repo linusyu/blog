@@ -69,6 +69,10 @@ li {
     border-bottom: 1px dashed #E2E2E2;
     line-height: 30px;
 }
+.post li span{
+	float: right;
+	color: #999999;
+}
 .post {
     line-height: 25px;
 }
