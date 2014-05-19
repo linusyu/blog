@@ -69,7 +69,7 @@ li {
     border-bottom: 1px dashed #E2E2E2;
     line-height: 30px;
 }
-.post li span{
+.posts li span{
 	float: right;
 	color: #999999;
 }
