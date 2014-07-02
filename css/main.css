@@ -85,6 +85,9 @@ li {
 	color: #999999;
 	padding-right: 10px;
 }
+.posts li a{
+	display: block;
+}
 .posts li a:hover{
 	color: #38a2db;
 }
