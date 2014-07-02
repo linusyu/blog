@@ -1,4 +1,4 @@
 name: Linusyu
 markdown: redcarpet
 pygments: false
-baseurl: /blog
+baseurl: /
