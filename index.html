@@ -6,7 +6,7 @@ title: Linusyu's blog
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><span>{{ post.date | date: "%Y-%m-%d" }}</span></li>
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<span>{{ post.date | date: "%Y-%m-%d" }}</span></a></li>
     {% endfor %}
   </ul>
 </div>

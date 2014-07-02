@@ -78,10 +78,15 @@ li {
 .posts li {
     border-bottom: 1px dashed #E2E2E2;
     line-height: 30px;
+	text-indent: 10px;
 }
 .posts li span{
 	float: right;
 	color: #999999;
+	padding-right: 10px;
+}
+.posts li a:hover{
+	color: #38a2db;
 }
 .post {
     line-height: 25px;
