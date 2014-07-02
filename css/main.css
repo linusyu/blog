@@ -57,6 +57,17 @@ li {
     color: #FFFFFF;
     line-height: 30px;
 }
+.motto {
+    color: #999999;
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: left;
+}	
+.motto .sign{
+    float:right;
+    font-size: 12px;
+    color:#888888;	
+}
 #content {
     float: right;
     width: 70%;
