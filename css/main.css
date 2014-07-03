@@ -63,8 +63,14 @@ li {
     max-width: 300px;
     text-align: left;
     padding: 0 10px;
+	line-height: 20px;
     text-align: justify;    
 }	
+.motto > p b {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 22px;
+}
 .motto .sign{
     float:right;
     font-size: 12px;
